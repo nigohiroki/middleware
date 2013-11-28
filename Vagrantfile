@@ -86,6 +86,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.cookbooks_path = "cookbooks"
     chef.add_recipe "nginx"
     chef.add_recipe "memcached"
+    chef.add_recipe "iptables"
   #
   #   # You may also specify custom JSON attributes:
   #   chef.json = { :mysql_password => "foo" }
