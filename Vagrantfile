@@ -21,8 +21,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe "nginx"
     chef.add_recipe "memcached"
     chef.add_recipe "iptables"
-    chef.add_recipe "postgresql"
+#    chef.add_recipe "postgresql"
     chef.add_recipe "td-agent"
+    chef.add_recipe "redis"
   #
   #   # You may also specify custom JSON attributes:
   #   chef.json = { :mysql_password => "foo" }
